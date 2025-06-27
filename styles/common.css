@@ -1,0 +1,85 @@
+/* common.css */
+/* ========== header ========= */
+header {
+    background-color:aqua;
+    text-align:center;
+}
+header .bnr1 {
+    background-color:#7AC142;
+    width:100%; height:30px;
+    padding-right:30px;
+}
+header .bnr1 .bnr1_content {
+    width:1000px; 
+    display:flex; justify-content:space-between;
+    float:right;
+}
+header .bnr1 .bnr1_content a {line-height:30px;}
+header .bnr1 .bnr1_content a span {
+    font-size:0.75rem;
+    color:#f5f5f5;   
+}
+header .bnr1 .bnr1_content a img {}
+
+header .header {
+    width:1600px;
+    margin:0 auto;
+}
+header .header h1 {
+    padding:10px 0;
+}
+header .header h1 a {}
+header .header h1 a img {}
+
+header .bottom {
+    background-color:yellow;
+    display:flex; justify-content:space-between;
+    padding:10px 0;
+}
+header .bottom .left_wrap {
+    display:flex; line-height:20px;
+}
+header .bottom .left_wrap a:nth-child(2)::after, header .bottom .left_wrap a:nth-child(3)::after {
+    content:'|'; display:inline-block;
+    margin-left:10px;
+    font-size:0.652rem;
+    color:rgba(51,51,51,0.5)
+}
+header .bottom .left_wrap a {
+    font-size:0.875rem;
+    margin-right:10px;
+    line-height:20px;
+}
+header .bottom .left_wrap ul li a:last-child {margin-right:0;}
+header .bottom .left_wrap ul li a img {width:20px; height:20px;}
+
+header .bottom .gnb {
+    border:1px solid black;
+}
+header .bottom .gnb ul {display:flex; border:1px solid red;}
+header .bottom .gnb ul li {margin-right:40px;}
+header .bottom .gnb ul li:last-child {margin-right:0;}
+header .bottom .gnb ul li a {}
+
+header .bottom .right_wrap {
+    display:flex;
+    border:1px solid black;
+}
+header .bottom .right_wrap .search_box {
+    margin-right:10px; border:1px solid red;
+
+}
+header .bottom .right_wrap .search_box input {
+    background:none;
+    font-size:0.75rem;
+    border-bottom:0.5px solid #7AC142;
+    width:220px; height:20px;
+    padding:0 5px 0 10px;
+}
+header .bottom .right_wrap .search_box a {}
+header .bottom .right_wrap .search_box a img {}
+header .bottom .right_wrap p {margin-right:10px;}
+header .bottom .right_wrap p a {}
+header .bottom .right_wrap p a img {}
+
+/* ========== footer ========= */
