@@ -1,7 +1,6 @@
 /* common.css */
 /* ========== header ========= */
 header {
-    background-color:aqua;
     text-align:center;
 }
 header .bnr1 {
@@ -32,7 +31,6 @@ header .header h1 a {}
 header .header h1 a img {}
 
 header .bottom {
-    background-color:yellow;
     display:flex; justify-content:space-between;
     padding:10px 0;
 }
@@ -53,21 +51,18 @@ header .bottom .left_wrap a {
 header .bottom .left_wrap ul li a:last-child {margin-right:0;}
 header .bottom .left_wrap ul li a img {width:20px; height:20px;}
 
-header .bottom .gnb {
-    border:1px solid black;
-}
-header .bottom .gnb ul {display:flex; border:1px solid red;}
+header .bottom .gnb {}
+header .bottom .gnb ul {display:flex;}
 header .bottom .gnb ul li {margin-right:40px;}
 header .bottom .gnb ul li:last-child {margin-right:0;}
 header .bottom .gnb ul li a {}
 
 header .bottom .right_wrap {
     display:flex;
-    border:1px solid black;
 }
 header .bottom .right_wrap .search_box {
-    margin-right:10px; border:1px solid red;
-
+    margin-right:10px;
+    position:relative;
 }
 header .bottom .right_wrap .search_box input {
     background:none;
@@ -76,7 +71,9 @@ header .bottom .right_wrap .search_box input {
     width:220px; height:20px;
     padding:0 5px 0 10px;
 }
-header .bottom .right_wrap .search_box a {}
+header .bottom .right_wrap .search_box a {
+    position:absolute; right:8px; top:4px;
+}
 header .bottom .right_wrap .search_box a img {}
 header .bottom .right_wrap p {margin-right:10px;}
 header .bottom .right_wrap p a {}
