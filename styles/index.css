@@ -66,10 +66,170 @@ main .menu_wrap .menu7 a {margin-right:0;}
 main .bnr_first {
     text-align:center;
 }
-main .bnr_first a {}
+main .bnr_first a {margin-right:20px;}
+main .bnr_first a:last-child {margin-right:0;}
 
 /* 4행 new product */
+main .new_product {
+    width:1600px;
+    margin:150px auto 100px;
+    position:relative;
+}
+main .new_product .title_g {
+    display:flex; justify-content:space-between;
+    margin-bottom:10px;
+}
+main .new_product .title_g .title p {
+    font-size:1.125rem;
+    margin-bottom:5px;
+}
+main .new_product .title_g .title h2 {
+    font-size:2rem; font-weight:600;
+}
+main .new_product .title_g .more {
+    border:1px solid red;
+    margin-top:41px;
+    line-height:14px;
+}
+main .new_product .title_g .more span {
+    font-size:0.875rem;
+}
+main .new_product .title_g .more img {}
+
+main .new_product .menu_g {}
+main .new_product .menu_g a {
+    font-weight:500;
+}
+main .new_product .menu_g a:hover {
+    color:#7AC142;
+}
+main .new_product .menu_g .top {
+    padding:25px 0 10px;
+    border-top:0.3px solid rgba(51,51,51,0.3);
+}
+main .new_product .menu_g .top a {}
+
+
+main .new_product .menu_g .bottom {
+    padding:10px 0 25px;
+    border-bottom:0.3px solid rgba(51,51,51,0.3);
+}
+main .new_product .menu_g .bottom a {}
+main .new_product .menu_g .top a,
+main .new_product .menu_g .bottom a {margin-right:50px;}
+main .new_product .menu_g .top a:last-child,
+main .new_product .menu_g .bottom a:last-child {margin-right:0;}
+
+main .new_product .product_g {
+    display:flex; justify-content:space-between;
+    margin:70px 0 100px;
+}
+main .new_product .product_g .product {
+    width:350px;
+}
+main .new_product .product_g .product p {
+    margin-bottom:10px;
+}
+main .new_product .product_g .product p img {}
+main .new_product .product_g .product .new_bottom {
+    display:flex;
+}
+main .new_product .product_g .product .new_bottom p {
+    margin-right:10px;
+}
+main .new_product .product_g .product .new_bottom p img {
+    width:150px; height:150px;
+}
+main .new_product .product_g .product .new_bottom .content {
+    padding:10px;
+    margin:13px 0;    
+}
+main .new_product .product_g .product .new_bottom .content h3 {
+    font-weight:500;
+    margin-bottom:10px;
+}
+main .new_product .product_g .product .new_bottom .content p {
+    margin-bottom:20px;
+}
+main .new_product .product_g .product .new_bottom .content p span {}
+main .new_product .product_g .product .new_bottom .content p span:last-child {
+    font-weight:500;
+}
+main .new_product .product_g .product .new_bottom .contetn .new_icon {}
+main .new_product .product_g .product .new_bottom .content .new_icon .img {margin-right:5px;}
+main .new_product .product_g .product1 {}
+main .new_product .product_g .product1 .product1_bottom {}
+main .new_product .product_g .product2 {}
+main .new_product .product_g .product2 .product2_bottom {}
+main .new_product .product_g .product3 {}
+main .new_product .product_g .product3 .product3_bottom {}
+main .new_product .product_g .product4 {}
+main .new_product .product_g .product4 .product4_bottom {}
+main .new_product .slide {
+    text-align:center;
+    position:relative;
+}
+main .new_product .slide a {}
+main .new_product .slide a:first-child {
+    position:absolute;
+}
+main .new_product .slide a img {}
+
 /* 5행 올가홀푸드 */
+main .olga_wrap {
+    width:1600px;
+    margin:0 auto;                                  
+}
+main .olga_wrap .title_g {
+    background-color:aqua;
+    display:flex; justify-content:space-between;
+}
+main .olga_wrap .title_g h3 {
+    font-size:2rem; font-weight:600;
+}
+main .olga_wrap .title_g .more {
+    margin-top:18px;
+}
+main .olga_wrap .title_g .more span {}
+main .olga_wrap .title_g .more img {}
+
+main .olga_wrap .olga_bottom {
+    background-color:yellow;
+    display:flex;
+    padding:100px 0;
+}
+main .olga_wrap .olga_bottom .right_bnr {
+    background-color:coral;
+    display:flex; flex-flow:column nowrap;
+}
+main .olga_wrap .olga_bottom .right_bnr a {}
+main .olga_wrap .olga_bottom .right_bnr a img {}
+
+main .olga_wrap .olga_bottom .left_prod {
+    background-color:pink;
+    display:flex;
+}
+main .olga_wrap .olga_bottom .left_prod .olga_product {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content {}
+
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_top {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_top a {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_top a img {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_top .olga_icon {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_top .olga_icon a {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_top .olga_icon a img {}
+
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_bottom {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_bottom h3 {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_bottom .price {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_bottom .price span {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_bottom .review_wrap {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_bottom .review_wrap a {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_bottom .review_wrap a img {}
+main .olga_wrap .olga_bottom .left_prod .olga_product a img .prod_content .content_bottom .review_wrap span {}
+
 /* 6행 best product */
 /* 7행 브랜드소개배너 */
 /* 8행 밀키트 */
