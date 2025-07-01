@@ -1,36 +1,73 @@
 /* 1행 메인 */
 main {}
 main .main_bg {
-    width:100%;
-    height:800px;
-    position:relative;
-    overflow:hidden;
-}
-main .main_bg .main_photo {
     background:url(../images/main1/main_photo1.jpg) center / cover;
     width:100%; height:800px;
+    position:relative;
 }
-main .main_bg h2 {
+main .main_bg .olga_logo {
+    position:absolute; left:20%; top:60%;
+}
+main .main_bg .olga_logo h2 {
+    
+}
+main .main_bg .olga_logo p {
+    font-size:1.25rem;
+}
+main .main_bg .bottom {
+    display:flex;
+    position:absolute; left:45%; top:95%;
+}
+main .main_bg .bottom .slide {
+    position:relative;
+}
+main .main_bg .bottom .slide a:first-child {
     position:absolute;
-    top:500px;
-    left:50%;
-    transform:translateX(-300%);
 }
-main .main_bg h2 img {
-    width:150px; height:70px;
+main .main_bg .bottom .slide a {}
+main .main_bg .bottom .slide a img {}
+main .main_bg .bottom .btn_wrap {
+    display:flex;
+    
 }
-main .main_bg p {
-    position:absolute;
-    top:580px;
-    left:50%;
-    transform:translateX(-230%);
-    font-size:18px;
-    color:#333;
-}
-
+main .main_bg .bottom .btn_wrap a {}
+main .main_bg .bottom .btn_wrap a img {}
+main .main_bg .bottom .btn_wrap p {}
 
 /* 2행 카테고리 */
+main .menu_wrap {
+    display:flex;
+    width:1600px;
+    padding:100px 0;
+    margin:0 auto;
+    
+}
+main .menu_wrap .menu {}
+main .menu_wrap .menu a {
+    display:flex; flex-flow:column nowrap;
+    width:120px; height:120px;
+    text-align:center;
+    margin-right:50px;
+}
+main .menu_wrap .menu a img {
+    margin-bottom:15px;
+}
+main .menu_wrap .menu a span {font-weight:500;}
+main .menu_wrap .menu1 {margin-left:230px;}
+main .menu_wrap .menu2 {}
+main .menu_wrap .menu3 {}
+main .menu_wrap .menu4 {}
+main .menu_wrap .menu5 {}
+main .menu_wrap .menu6 {}
+main .menu_wrap .menu7 {}
+main .menu_wrap .menu7 a {margin-right:0;}
+
 /* 3행 배너1 */
+main .bnr_first {
+    text-align:center;
+}
+main .bnr_first a {}
+
 /* 4행 new product */
 /* 5행 올가홀푸드 */
 /* 6행 best product */
