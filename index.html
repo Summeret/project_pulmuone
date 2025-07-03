@@ -57,28 +57,25 @@
     </header>
     <main>
         <!-- 1행 메인 -->
-        <section class="ad_wrap">
-            <div class="ad_container">
-                <a href="#" class="ad ad1">
-                    <div class="ad_txt">
-                        <img src="./images/main1/olga_logo.png" alt="올가로고">
-                        <span>믿고 먹을 수 있는 프리미엄 유기농</span>
-                    </div>
-                </a>
+        <div class="swiper ad_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1"></div>
+                <div class="swiper-slide slide2"></div>
+                <div class="swiper-slide slide3"></div>
             </div>
-            <div class="ad_slidevar">
+            <div class="bottom">
                 <div class="slide">
-                    <a href="#"><img src="./images/main1/icon_slide_B.png" alt="슬라이드"></a>
-                    <a href="#"><img src="./images/main1/icon_slide_var.png" alt="슬라이드바"></a>
+                    <a href="#"><img src="./images/main1/icon_slide_B.png" alt="#"></a>
+                    <a href="#"><img src="./images/main1/icon_slide_var.png" alt="#"></a>
                 </div>
-                <div class="slide_btn">
-                    <a href="#"><img src="./images/main1/icon_prev.png" alt="이전버튼"></a>
-                    <span>01/05</span>
-                    <a href="#"><img src="./images/main1/icon_next.png" alt="다음버튼"></a>
+                <div class="btn_wrap">
+                    <a href="#" class="prev_btn"><img src="./images/main1/icon_prev.png" alt="이전버튼"></a>
+                    <p>01/05</p>
+                    <a href="#" class="next_btn"><img src="./images/main1/icon_next.png" alt="다음버튼"></a>
                     <a href="#"><img src="./images/main1/icon_pause.png" alt="정지버튼"></a>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- 2행 카테고리 -->
         <div class="menu_wrap">
             <div class="menu menu1">
@@ -141,31 +138,183 @@
                     <img src="./images/new/more_arrow.png" alt="더보기">
                 </a>
             </div>
-            <div class="new_swiper">
-                <div class="product_wrap">
-                    <div class="product product1">
-                        <a href="#"><img src="./images/new/new_big1.png" alt="50% 당을 낮춘 새콤달콤 유부초밥 (310g)"></a>
-                        <div class="new_bottom">
-                            <a href="#"><img src="./images/new/new_small1.png" alt="50% 당을 낮춘 새콤달콤 유부초밥 (310g)"></a>
-                            <div class="content">
-                                <h3><a href="#">50% 당을 낮춘 새콤달콤 유부초밥 (310g)</a></h3>
-                                <p class="new_price">
-                                    <span>16%</span>
-                                    <span>4,980원</span>
-                                </p>
-                                <div class="new_icon">
-                                    <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
-                                    <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product product2"></div>
-                    <div class="product product3"></div>
-                    <div class="product product3"></div>
+            <div class="menu menu_g">
+                <div class="top">
+                    <a href="#">지속가능먹거리</a>
+                    <a href="#">두부·콩나물·달걀</a>
+                    <a href="#">과일·채소·쌀</a>
+                    <a href="#">정육·수산</a>
+                    <a href="#">만두·피자·떡볶이</a>
+                    <a href="#">국·탕·간편식</a>
+                    <a href="#">면요리</a>
+                    <a href="#">반찬·김치</a>
+                    <a href="#">양념·소스·오일</a>
+                </div>
+                <div class="bottom">
+                    <a href="#">과자·간식·베이커리</a>
+                    <a href="#">생수·음료·유제품</a>
+                    <a href="#">건강식품</a>
+                    <a href="#">일일배달 녹즙</a>
+                    <a href="#">디자인밀 맞춤식단</a>
+                    <a href="#">반려동물</a>
+                    <a href="#">생활·주방·뷰티용품</a>
+                    <a href="#">가전제품</a>
+                    <a href="#">선물세트</a>
                 </div>
             </div>
-
+            <div class="swiper new_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./images/new/new_big1.png" alt="50% 당을 낮춘 새콤달콤 유부초밥 (310g)"></a>
+                                <div class="new_bottom">
+                                    <a href="#"><img src="./images/new/new_small1.png" alt="50% 당을 낮춘 새콤달콤 유부초밥 (310g)"></a>
+                                    <div class="content">
+                                        <h3><a href="#">50% 당을 낮춘 새콤달콤 유부초밥 (310g)</a></h3>
+                                        <p class="new_price">
+                                            <span>16%</span>
+                                            <span>4,980원</span>
+                                        </p>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/new/new_big2.png" alt="[풀무원지구식단] 더 넓은 두부면 (100g)"></a>
+                                <div class="new_bottom">
+                                    <a href="#"><img src="./images/new/new_small2.png" alt="[풀무원지구식단] 더 넓은 두부면 (100g)"></a>
+                                    <div class="content">
+                                        <h3><a href="#">[풀무원지구식단] 더 넓은 두부면 (100g)</a></h3>
+                                        <p class="new_price">
+                                            <span>10%</span>
+                                            <span>2,500원</span>
+                                        </p>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/new/new_big3.png" alt="유기농 콩 100% 연두부(150g x 2EA)"></a>
+                                <div class="new_bottom">
+                                    <a href="#"><img src="./images/new/new_small3.png" alt="유기농 콩 100% 연두부(150g x 2EA)"></a>
+                                    <div class="content">
+                                        <h3><a href="#">유기농 콩 100% 연두부(150g x 2EA)</a></h3>
+                                        <p class="new_price">
+                                            <span></span>
+                                            <span>3,600원</span>
+                                        </p>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/new/new_big4.png" alt="[풀무원지구식단] 두부텐더 (400g)"></a>
+                                <div class="new_bottom">
+                                    <a href="#"><img src="./images/new/new_small4.png" alt="[풀무원지구식단] 두부텐더 (400g)"></a>
+                                    <div class="content">
+                                        <h3><a href="#">[풀무원지구식단] 두부텐더 (400g)</a></h3>
+                                        <p class="new_price">
+                                            <span>18%</span>
+                                            <span>6,870원</span>
+                                        </p>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide slide2">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./images/new/new_big1.png" alt="50% 당을 낮춘 새콤달콤 유부초밥 (310g)"></a>
+                                <div class="new_bottom">
+                                    <a href="#"><img src="./images/new/new_small1.png" alt="50% 당을 낮춘 새콤달콤 유부초밥 (310g)"></a>
+                                    <div class="content">
+                                        <h3><a href="#">50% 당을 낮춘 새콤달콤 유부초밥 (310g)</a></h3>
+                                        <p class="new_price">
+                                            <span>16%</span>
+                                            <span>4,980원</span>
+                                        </p>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/new/new_big2.png" alt="[풀무원지구식단] 더 넓은 두부면 (100g)"></a>
+                                <div class="new_bottom">
+                                    <a href="#"><img src="./images/new/new_small2.png" alt="[풀무원지구식단] 더 넓은 두부면 (100g)"></a>
+                                    <div class="content">
+                                        <h3><a href="#">[풀무원지구식단] 더 넓은 두부면 (100g)</a></h3>
+                                        <p class="new_price">
+                                            <span>10%</span>
+                                            <span>2,500원</span>
+                                        </p>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/new/new_big3.png" alt="유기농 콩 100% 연두부(150g x 2EA)"></a>
+                                <div class="new_bottom">
+                                    <a href="#"><img src="./images/new/new_small3.png" alt="유기농 콩 100% 연두부(150g x 2EA)"></a>
+                                    <div class="content">
+                                        <h3><a href="#">유기농 콩 100% 연두부(150g x 2EA)</a></h3>
+                                        <p class="new_price">
+                                            <span></span>
+                                            <span>3,600원</span>
+                                        </p>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/new/new_big4.png" alt="[풀무원지구식단] 두부텐더 (400g)"></a>
+                                <div class="new_bottom">
+                                    <a href="#"><img src="./images/new/new_small4.png" alt="[풀무원지구식단] 두부텐더 (400g)"></a>
+                                    <div class="content">
+                                        <h3><a href="#">[풀무원지구식단] 두부텐더 (400g)</a></h3>
+                                        <p class="new_price">
+                                            <span>18%</span>
+                                            <span>6,870원</span>
+                                        </p>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide slide3">slide3</div>
+                </div>
+            </div>
+            <div class="slide">
+                <a href="#"><img src="./images/new/new_slide.png" alt="#"></a>
+                <a href="#"><img src="./images/new/new_slidevar.png" alt="#"></a>
+            </div>
         </div>
         <!-- 5행 올가홀푸드 -->
         <div class="olga_bg">
@@ -183,11 +332,308 @@
                         <a href="#"><img src="./images/olga/egg_bnr.png" alt="무항생제 정육/달걀"></a>
                         <a href="#"><img src="./images/olga/Direct_bnr.png" alt="산지직송"></a>
                     </div>
+                    <ul class="product">
+                        <li>
+                            <a href="#"><img src="./images/olga/olga1.png"></a>
+                            <div class="content">
+                                <div class="olga_logo">
+                                    <a href="#"><img src="./images/olga/olga_logo.png" alt="올가 바로가기"></a>
+                                    <div class="new_icon">
+                                        <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                        <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                    </div>
+                                </div>
+                                <h3><a href="#">우리콩 생나또 99g (49.5gx2EA)</a></h3>
+                                <p class="olga_price">
+                                    <span>50%</span>
+                                    <span>1,950원</span>
+                                </p>
+                                <div class="review">
+                                    <a href="#">
+                                        <img src="./images/olga/icon_star.png" alt="별점">
+                                        <span>4.8</span>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/olga/icon_review.png" alt="리뷰">
+                                        <span>3,353</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/olga/olga1.png"></a>
+                            <div class="content">
+                                <div class="olga_logo">
+                                    <a href="#"><img src="./images/olga/olga_logo.png" alt="올가 바로가기"></a>
+                                    <div class="new_icon">
+                                        <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                        <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                    </div>
+                                </div>
+                                <h3><a href="#">우리콩 생나또 99g (49.5gx2EA)</a></h3>
+                                <p class="olga_price">
+                                    <span>50%</span>
+                                    <span>1,950원</span>
+                                </p>
+                                <div class="review">
+                                    <a href="#">
+                                        <img src="./images/olga/icon_star.png" alt="별점">
+                                        <span>4.8</span>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/olga/icon_review.png" alt="리뷰">
+                                        <span>3,353</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/olga/olga1.png"></a>
+                            <div class="content">
+                                <div class="olga_logo">
+                                    <a href="#"><img src="./images/olga/olga_logo.png" alt="올가 바로가기"></a>
+                                    <div class="new_icon">
+                                        <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                        <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                    </div>
+                                </div>
+                                <h3><a href="#">우리콩 생나또 99g (49.5gx2EA)</a></h3>
+                                <p class="olga_price">
+                                    <span>50%</span>
+                                    <span>1,950원</span>
+                                </p>
+                                <div class="review">
+                                    <a href="#">
+                                        <img src="./images/olga/icon_star.png" alt="별점">
+                                        <span>4.8</span>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/olga/icon_review.png" alt="리뷰">
+                                        <span>3,353</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/olga/olga1.png"></a>
+                            <div class="content">
+                                <div class="olga_logo">
+                                    <a href="#"><img src="./images/olga/olga_logo.png" alt="올가 바로가기"></a>
+                                    <div class="new_icon">
+                                        <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                        <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                    </div>
+                                </div>
+                                <h3><a href="#">우리콩 생나또 99g (49.5gx2EA)</a></h3>
+                                <p class="olga_price">
+                                    <span>50%</span>
+                                    <span>1,950원</span>
+                                </p>
+                                <div class="review">
+                                    <a href="#">
+                                        <img src="./images/olga/icon_star.png" alt="별점">
+                                        <span>4.8</span>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./images/olga/icon_review.png" alt="리뷰">
+                                        <span>3,353</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="arrow_g">
+                        <a href="#"><img src="./images/olga/olga_prev.png"></a>
+                        <a href="#"><img src="./images/olga/olga_next.png"></a>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- 6행 best product -->
+        <div class="best_product">
+            <div class="title_g">
+                <div class="title">
+                    <p>제일 잘 나가</p>
+                    <h2>BEST PRODUCT</h2>
+                </div>
+                <a href="#" class="more">
+                    <span>MORE</span>
+                    <img src="./images/new/more_arrow.png" alt="더보기">
+                </a>
+            </div>
+            <div class="menu menu_g">
+                <div class="top">
+                    <a href="#">지속가능먹거리</a>
+                    <a href="#">두부·콩나물·달걀</a>
+                    <a href="#">과일·채소·쌀</a>
+                    <a href="#">정육·수산</a>
+                    <a href="#">만두·피자·떡볶이</a>
+                    <a href="#">국·탕·간편식</a>
+                    <a href="#">면요리</a>
+                    <a href="#">반찬·김치</a>
+                    <a href="#">양념·소스·오일</a>
+                </div>
+                <div class="bottom">
+                    <a href="#">과자·간식·베이커리</a>
+                    <a href="#">생수·음료·유제품</a>
+                    <a href="#">건강식품</a>
+                    <a href="#">일일배달 녹즙</a>
+                    <a href="#">디자인밀 맞춤식단</a>
+                    <a href="#">반려동물</a>
+                    <a href="#">생활·주방·뷰티용품</a>
+                    <a href="#">가전제품</a>
+                    <a href="#">선물세트</a>
+                </div>
+            </div>
+            <div class="swiper best_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./images/best/best001.png" alt="블루베리"></a>
+                                <div class="content">
+                                    <h3><a href="#">냉동 유기농 블루베리 (500g)</a></h3>
+                                    <p class="best_price">
+                                        <span>15%</span>
+                                        <span>10,900원</span>
+                                    </p>
+                                    <div class="best_bottom">
+                                        <div class="review">
+                                            <a href="#">
+                                                <img src="./images/olga/icon_star.png" alt="별점">
+                                                <span>4.8</span>
+                                            </a>
+                                            <a href="#">
+                                                <img src="./images/olga/icon_review.png" alt="리뷰">
+                                                <span>3,353</span>
+                                            </a>
+                                        </div>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/best/best002.png" alt="옥수수"></a>
+                                <div class="content">
+                                    <h3><a href="#">[산지]미백찰옥수수(국산,10입)</a></h3>
+                                    <p class="best_price">
+                                        <span></span>
+                                        <span>16,900원</span>
+                                    </p>
+                                    <div class="best_bottom">
+                                        <div class="review">
+                                            <a href="#">
+                                                <img src="./images/olga/icon_star.png" alt="별점">
+                                                <span>4.8</span>
+                                            </a>
+                                            <a href="#">
+                                                <img src="./images/olga/icon_review.png" alt="리뷰">
+                                                <span>400</span>
+                                            </a>
+                                        </div>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/best/best003.png" alt="토마토"></a>
+                                <div class="content">
+                                    <h3><a href="#">스낵토마토(GAP) (1kg)</a></h3>
+                                    <p class="best_price">
+                                        <span>14%</span>
+                                        <span>11,900원</span>
+                                    </p>
+                                    <div class="best_bottom">
+                                        <div class="review">
+                                            <a href="#">
+                                                <img src="./images/olga/icon_star.png" alt="별점">
+                                                <span>4.8</span>
+                                            </a>
+                                            <a href="#">
+                                                <img src="./images/olga/icon_review.png" alt="리뷰">
+                                                <span>3,353</span>
+                                            </a>
+                                        </div>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/best/best004.png" alt="사과"></a>
+                                <div class="content">
+                                    <h3><a href="#">껍질째먹는 당도선별 저탄소 사과 5-6입</a></h3>
+                                    <p class="best_price">
+                                        <span>20%</span>
+                                        <span>19,900원</span>
+                                    </p>
+                                    <div class="best_bottom">
+                                        <div class="review">
+                                            <a href="#">
+                                                <img src="./images/olga/icon_star.png" alt="별점">
+                                                <span>4.8</span>
+                                            </a>
+                                            <a href="#">
+                                                <img src="./images/olga/icon_review.png" alt="리뷰">
+                                                <span>73</span>
+                                            </a>
+                                        </div>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./images/best/best005.png" alt="고구마"></a>
+                                <div class="content">
+                                    <h3><a href="#">꿀고구마(친환경) (800g)</a></h3>
+                                    <p class="best_price">
+                                        <span>28%</span>
+                                        <span>8,900원</span>
+                                    </p>
+                                    <div class="best_bottom">
+                                        <div class="review">
+                                            <a href="#">
+                                                <img src="./images/olga/icon_star.png" alt="별점">
+                                                <span>4.8</span>
+                                            </a>
+                                            <a href="#">
+                                                <img src="./images/olga/icon_review.png" alt="리뷰">
+                                                <span>3,353</span>
+                                            </a>
+                                        </div>
+                                        <div class="new_icon">
+                                            <a href="#"><img src="./images/new/new_heart.png" alt="좋아요"></a>
+                                            <a href="#"><img src="./images/new/new_cart.png" alt="장바구니넣기"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide slide2"></div>
+                    <div class="swiper-slide slide3"></div>
+                </div>
+            </div>
+            <div class="slide">
+                <a href="#"><img src="./images/new/new_slide.png" alt="#"></a>
+                <a href="#"><img src="./images/new/new_slidevar.png" alt="#"></a>
+            </div>
+        </div>
         <!-- 7행 브랜드소개배너-->
+        <div class="bnr2">
+            <a href="#"><img src="./images/brand_bnr.png" alt="풀무원소개"></a>
+        </div>
         <!-- 8행 밀키트 -->
         <!-- 9행 상품추천-->
         <!-- 10행 배너2 - 녹즙, 아미오-->
