@@ -20,7 +20,7 @@ main .ad_swiper .swiper-wrapper main .new_product .new_swiper .awiper-slide {
     position:relative;
 }
 main .ad_swiper .swiper-wrapper .slide1 {background-image:url(../images/main1/main_photo1.jpg);}
-main .ad_swiper .swiper-wrapper .slide2 {}
+main .ad_swiper .swiper-wrapper .slide2 {background-image:url(../images/main1/main_photo1.jpg);}
 main .ad_swiper .swiper-wrapper .slide3 {}
 
 main .ad_swiper .bottom {
@@ -449,7 +449,6 @@ main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .be
     display:flex; justify-content: space-between;
 }
 main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .best_bottom .review {
-    border:1px solid red;
     display: flex;
     align-items: center;
     gap:3px;
@@ -458,12 +457,9 @@ main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .be
 main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .best_bottom .review a:first-child {
     margin-right:10px;
 }
-main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .best_bottom .review a img {
-    border:1px solid blue;
-}
+main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .best_bottom .review a img {}
 main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .best_bottom .review a span {
     font-size:0.75rem;
-    border:1px solid blue;
 }
 main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .best_bottom .best_icon {}
 main .best_product .best_swiper .swiper-wrapper .swiper-slide ul li .content .best_bottom .best_icon a {}
@@ -611,6 +607,7 @@ main .recommen .recommen_swiper .swiper-wrapper .swiper-slide ul li a img {}
 
 main .recommen .recommen_swiper .swiper-wrapper .swiper-slide ul li .content {
     margin-top:10px;
+    padding:10px;
 }
 main .recommen .recommen_swiper .swiper-wrapper .swiper-slide ul li .content h3 {}
 main .recommen .recommen_swiper .swiper-wrapper .swiper-slide ul li .content h3 a {
@@ -668,9 +665,41 @@ main .bnr_second a:first-child {
 main .bnr_second a img {}
 
 /* 11행 유튜브 숏츠 */
-main .you_short {}
-main .you_short .swiper-wrapper {}
-main .you_short .swiper-wrapper .swiper-slide {}
-main .you_short .swiper-wrapper .swiper-slide iframe {
-    width:300px; height:500px;
+main .you_short {
+    padding:200px 0;
+}
+main .you_short .title {
+    display: flex; justify-content:center;
+    width:1600px;
+    margin:0 auto;
+}
+main .you_short .title .short_title {
+    display: flex;
+    align-items: center;
+    font-size:0.875rem;
+    gap:3px;
+    text-align:center;
+}
+main .you_short .title .short_title img {
+    width:32px;
+}
+main .you_short .title .short_title span {
+    font-size:1.75rem; font-weight:600;
+}
+
+main .you_short .shorts-container {
+    margin-top:50px;
+    position:relative;
+}
+main .you_short .shorts-container .shorts_swiper {}
+main .you_short .shorts-container .shorts_swiper .swiper-wrapper {}
+main .you_short .shorts-container .shorts_swiper .swiper-wrapper .swiper-slide {
+    background-color: yellow;
+    width:300px;
+
+}
+main .you_short .shorts-container .shorts_swiper .swiper-wrapper .swiper-slide iframe {
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
 }

@@ -56,6 +56,7 @@
             </div>
         </div>
     </header>
+
     <main>
         <!-- 1행 메인 -->
         <div class="swiper ad_swiper">
@@ -64,18 +65,7 @@
                 <div class="swiper-slide slide2"></div>
                 <div class="swiper-slide slide3"></div>
             </div>
-            <div class="bottom">
-                <div class="slide">
-                    <a href="#"><img src="./images/main1/icon_slide_B.png" alt="#"></a>
-                    <a href="#"><img src="./images/main1/icon_slide_var.png" alt="#"></a>
-                </div>
-                <div class="btn_wrap">
-                    <a href="#" class="prev_btn"><img src="./images/main1/icon_prev.png" alt="이전버튼"></a>
-                    <p>01/05</p>
-                    <a href="#" class="next_btn"><img src="./images/main1/icon_next.png" alt="다음버튼"></a>
-                    <a href="#"><img src="./images/main1/icon_pause.png" alt="정지버튼"></a>
-                </div>
-            </div>
+            <div class="swiper-pagination"></div>
         </div>
         <!-- 2행 카테고리 -->
         <div class="menu_wrap">
@@ -952,6 +942,7 @@
                             </a>
                         </div>
                     </div>
+                    <div class="swiper-scrollbar"></div>
                 </div>
             </div>
         </div>
@@ -1250,33 +1241,90 @@
             <a href="#"><img src="./images/bnr_02/amio_bnr.png" alt="반려동물 브랜드 아미오"></a>
         </div>
         <!-- 11행 유튜브 숏츠-->
-        <div class="swiper short_swiper">
-            <div class="swiper-wrapper">
-                <!--슬라이드 개수 시작(아래 swiper slidesPerView보다 많이 생성)-->
-                <div class="swiper-slide slide1">
-                    <iframe width="482" height="857" src="https://www.youtube.com/embed/R-ilU2XvTSE" title="[풀무원지구식단] 에드워드리 셰프가 요즘 푹 빠져있는 두가지 두부…그리고 존박?!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="swiper-slide slide2">
-                    <iframe width="482" height="857" src="https://www.youtube.com/embed/-mP-lu6AAi8" title="[풀무원지구식단] 존박이 추천하는 두유면 냉면 맛있게 먹는 꿀팁!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="swiper-slide slide3">
-                    <iframe width="482" height="857" src="https://www.youtube.com/embed/zbDgO75BZRY" title="[풀무원지구식단] 더 건강하게, 더 맛있게 당신의 식탁에 지구력을!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="swiper-slide slide4">
-                    <iframe width="482" height="857" src="https://www.youtube.com/embed/WAsexRkNBUk" title="[풀무원지구식단] 면러버 아이가 고민이라면? 밀가루 빠진 두유면!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="swiper-slide slide5">
-                    <iframe width="482" height="857" src="https://www.youtube.com/embed/Np405Xp1TCc" title="[풀무원지구식단] 운동 후 식단이 고민이라면? 밀가루 빠진 두유면!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="swiper-slide slide6">
-                    <iframe width="482" height="857" src="https://www.youtube.com/embed/FRe7k-3zY64" title="[풀무원지구식단] 면까지 트렌디하게 먹고싶다면? 밀가루 빠진 두유면!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="swiper-slide slide7">
-                    <iframe width="482" height="857" src="https://www.youtube.com/embed/6brQZBGNsqY" title="[풀무원지구식단] 밀가루 빠진 두유면으로 좋아하는 면을 마음껏!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="you_short">
+            <div class="title">
+                <a href="#" class="short_title">
+                    <img src="./images/shorts/icon_short.png" alt="유튜브쇼츠 바로가기">
+                    <span>SHORTS</span>
+                </a>
+            </div>
+
+            <div class="shorts-container">
+                <div class="swiper shorts_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <iframe src="https://www.youtube.com/embed/R-ilU2XvTSE" title="[풀무원지구식단] 에드워드리 셰프가 요즘 푹 빠져있는 두가지 두부…그리고 존박?!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe src="https://www.youtube.com/embed/-mP-lu6AAi8" title="[풀무원지구식단] 존박이 추천하는 두유면 냉면 맛있게 먹는 꿀팁!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe src="https://www.youtube.com/embed/zbDgO75BZRY" title="[풀무원지구식단] 더 건강하게, 더 맛있게 당신의 식탁에 지구력을!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe src="https://www.youtube.com/embed/WAsexRkNBUk" title="[풀무원지구식단] 면러버 아이가 고민이라면? 밀가루 빠진 두유면!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe src="https://www.youtube.com/embed/Np405Xp1TCc" title="[풀무원지구식단] 운동 후 식단이 고민이라면? 밀가루 빠진 두유면!​" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe src="https://www.youtube.com/embed/FRe7k-3zY64" title="[풀무원지구식단] 면까지 트렌디하게 먹고싶다면? 밀가루 빠진 두유면!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe src="https://www.youtube.com/embed/2KW2LNP2StE" title="😮풀무원에서 두부 만드는 #에드워드리 실존!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer></footer>
+
+    <footer>
+        <div class="left">
+            <a href="#"><img src="./images/footer/logo.png" alt="풀무원 바로가기"></a>
+            <div class="sns_icon">
+                <a href="#"><img src="./images/footer/icon_insta.png" alt="인스타그램"></a>
+                <a href="#"><img src="./images/footer/icon_youtube.png" alt="유튜브"></a>
+                <a href="#"><img src="./images/footer/icon_talk.png" alt="카카오톡문의하기"></a>
+            </div>
+            <p>고객센터</p>
+            <p><em>080-022-0086</em></p>
+            <p>이메일 : pmocs_02@pulmuone.com</p>
+            <div class="time">
+                <p>평일 : 09:00 - 18:00</p>
+                <p>점심시간 : 12:00 - 13:00</p>
+            </div>
+        </div>
+        <div class="center">
+            <p><em>(주)풀무원</em></p>
+            <div class="owner">
+                <p>대표자 : 이우봉</p>
+                <p>주소 : 서울 강남구 광평로 280 (수서동), (주) 풀무원</p>
+            </div>
+            <p>사업자등록번호 : 315-81-01744 사업자정보확인</p>
+            <p>통신판매업신고 : 제2019-서울강남-02379호</p>
+            <p>건강기능식품 신고 : 제2019-016813호</p>
+            <p>호스팅 제공자 : (주)풀무원</p>
+            <p>㈜풀무원은 통신판매중개자이며 통신판매의 당사자가 아닙니다.</p>
+            <p> ㈜풀무원은 상품, 거래정보 및 거래에 대하여 책임을 지지 않습니다.</p>
+            <p>Copyright ⓒ Pulmuone co.,Ltd All Rights Reserved.</p>
+        </div>
+        <div class="right">
+            <div class="fnb">
+                <a href="#">회사소개</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">이용약관</a>
+                <a href="#">상품입점상담</a>
+            </div>
+            <div class="pay_content">
+                <div class="payment">
+                    <a href="#"><img src="./images/footer/escrow.png" alt="에스크로"></a>
+                    <a href="#"><img src="./images/footer/kcp.png" alt="kcp"></a>
+                    <a href="#"><img src="./images/footer/ccm.png" alt="소비자중심ccm"></a>
+                </div>
+                <p>이니시스 결제 시스템과 에스크로 서비스 (결제대금예치업 등록번호 : 02-006-00012)를 통해 안전거래를 보장하고 있습니다.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
