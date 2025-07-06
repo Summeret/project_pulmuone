@@ -15,7 +15,6 @@ main .ad_swiper .swiper-wrapper {
     width:1920px; height:800px;
 }
 main .ad_swiper .swiper-wrapper {}
-main .ad_swiper .swiper-wrapper main .new_product .new_swiper .awiper-slide {}
 main .ad_swiper .swiper-wrapper main .new_product .new_swiper .awiper-slide {
     position:relative;
 }
