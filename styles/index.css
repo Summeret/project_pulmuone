@@ -22,28 +22,6 @@ main .ad_swiper .swiper-wrapper .slide1 {background-image:url(../images/main1/ma
 main .ad_swiper .swiper-wrapper .slide2 {background-image:url(../images/main1/main_photo1.jpg);}
 main .ad_swiper .swiper-wrapper .slide3 {}
 
-main .ad_swiper .bottom {
-    display:flex;
-    position:absolute; left:45%; top:95%;
-}
-main .ad_swiper .bottom .slide {
-    position:relative;
-}
-main .ad_swiper .bottom .slide a:first-child {
-    position:absolute;
-}
-main .ad_swiper .bottom .slide a {}
-main .ad_swiper .bottom .slide a img {}
-main .ad_swiper .bottom .btn_wrap {
-    display:flex;
-    
-}
-main .ad_swiper .bottom .btn_wrap a {}
-main .ad_swiper .bottom .btn_wrap a img {}
-main .ad_swiper .bottom .btn_wrap p {}
-
-
-
 /* 2행 카테고리 */
 main .menu_wrap {
     display:flex;
