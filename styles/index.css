@@ -15,7 +15,7 @@ main .ad_swiper .swiper-wrapper {
     width:1920px; height:800px;
 }
 main .ad_swiper .swiper-wrapper {}
-main .ad_swiper .swiper-wrapper main .new_product .new_swiper .awiper-slide {
+main .ad_swiper .swiper-wrapper .swiper-slide {
     position:relative;
 }
 main .ad_swiper .swiper-wrapper .slide1 {background-image:url(../images/main1/main_photo1.jpg);}
