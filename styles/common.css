@@ -9,15 +9,12 @@ header .bnr1 {
     padding-right:30px;
 }
 header .bnr1 .bnr1_content {
-    width:1000px; 
+    width:1920px; 
     display:flex; justify-content:space-between;
     float:right;
 }
-header .bnr1 .bnr1_content a {line-height:30px;}
-header .bnr1 .bnr1_content a span {
-    font-size:0.75rem;
-    color:#f5f5f5;   
-}
+header .bnr1 .bnr1_content a {}
+header .bnr1 .bnr1_content a:last-child {line-height:30px;}
 header .bnr1 .bnr1_content a img {}
 
 header .header {
