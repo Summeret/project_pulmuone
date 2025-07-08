@@ -5,7 +5,7 @@ const adList = new Swiper('.ad_swiper',{
     loop:true,
     pagination: {
         el: '.swiper-pagination',
-        type:'fraction'
+        type:'bullets'
 
     },
 });

@@ -20,7 +20,8 @@ main .ad_swiper .swiper-wrapper .swiper-slide {
 }
 main .ad_swiper .swiper-wrapper .slide1 {background-image:url(../images/main1/main_photo1.jpg);}
 main .ad_swiper .swiper-wrapper .slide2 {background-image:url(../images/main1/main_photo1.jpg);}
-main .ad_swiper .swiper-wrapper .slide3 {}
+main .ad_swiper .swiper-wrapper .slide3 {background-image:url(../images/main1/main_photo1.jpg);}
+main .ad_swiper .swiper-pagination-bullet {background-color: #7AC142;}
 
 /* 2행 카테고리 */
 main .menu_wrap {
@@ -671,7 +672,6 @@ main .you_short .shorts-container {
 main .you_short .shorts-container .shorts_swiper {}
 main .you_short .shorts-container .shorts_swiper .swiper-wrapper {}
 main .you_short .shorts-container .shorts_swiper .swiper-wrapper .swiper-slide {
-    background-color: yellow;
     width:300px;
 
 }
